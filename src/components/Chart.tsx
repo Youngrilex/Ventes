@@ -1,17 +1,10 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
+import { ApexOptions } from 'apexcharts';
 
 interface State {
   series: { name: string, data: number[] }[];
-  options: {
-    chart: { height: number, type: string, zoom: { enabled: boolean } };
-    dataLabels: { enabled: boolean };
-    stroke: { curve: string, colors: string[] };
-    title: { text: string, align: string };
-    grid: { row: { colors: string[], opacity: number } };
-    xaxis: { categories: string[] };
-    markers: { colors: string[] }; // Add markers property
-  };
+  options: ApexOptions; // Use ApexOptions type
 }
 
 class ApexChart extends React.Component<{}, State> {
@@ -40,7 +33,7 @@ class ApexChart extends React.Component<{}, State> {
         },
         stroke: {
           curve: 'smooth',
-          colors: ['#E26169', '#5041BC']
+          colors: ['#008FFB', '#00E396']
         },
         title: {
           text: 'Claims Over the Years',
@@ -56,7 +49,7 @@ class ApexChart extends React.Component<{}, State> {
           categories: ['2015', '2016', '2017', '2018', '2019', '2020'],
         },
         markers: {
-          colors: ['#E26169', '#5041BC'] // Match the colors of the lines
+          colors: ['#008FFB', '#00E396']
         }
       },
     };
