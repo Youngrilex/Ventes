@@ -6,7 +6,7 @@ import { BsBookmarkDashFill, BsFileTextFill } from "react-icons/bs";
 const Siderbar = () => {
   return (
     <aside className="bg-[#5041BC] rounded-3xl h-full w-[20vw] absolute top-0 left-0">
-        <img className="w-32 h-12 m-8" src="src/assets/VENTES.png" alt="" />
+        <img className="w-32 h-12 m-8" src="/assets/VENTES.png" alt="" />
         <div className="w-36 h-[1px] m-8 bg-[#8A7DD0]" />
         <div className="mr-16 m-6 mt-8 flex flex-col text-white text-[15px] font-semibold">
           <div className="hover:bg-white hover:text-[#5041BC] px-4 py-2 hover:rounded-xl flex items-center gap-6">
