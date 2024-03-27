@@ -6,22 +6,22 @@ const Avatar = () => {
       </div>
       <img
         className="w-12 h-12 rounded-full absolute top-12 left-56 border-2 border-[#9E8CC741]"
-        src="../src/assets/dp.svg"
+        src="/dp.svg"
         alt=""
       />
       <img
         className="w-12 h-12 rounded-full absolute top-12 left-48 border-2 border-[#9E8CC741]"
-        src="../src/assets/Bitmap (2).svg"
+        src="/Bitmap (2).svg"
         alt=""
       />
       <img
         className="w-12 h-12 rounded-full absolute top-12 left-40 border-2 border-[#9E8CC741]"
-        src="../src/assets/Bitmap (1).svg"
+        src="/Bitmap (1).svg"
         alt=""
       />
         <img
         className="absolute top-40 left-48 border-2 border-[#9E8CC741]"
-        src="../src/assets/Rectangle 266.svg"
+        src="/Rectangle 266.svg"
         alt=""
       />
     </div>

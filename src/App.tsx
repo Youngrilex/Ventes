@@ -24,7 +24,7 @@ const App: React.FC = () => {
           <div className="w-[40%] relative bg-[#5041BC] text-[#5041BC] rounded-2xl shadow-purple-400  shadow-2xl h-[280px]">
             <img
               className="absolute top-0 left-0 opacity-20"
-              src="../src/assets/image 1.svg"
+              src="/image 1.svg"
               alt=""
             />
             <div className="">

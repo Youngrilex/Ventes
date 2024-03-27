@@ -16,7 +16,7 @@ const Header: React.FC = () => {
             <BsBellFill className="w-[32px] h-[28px] text-[#5041BC]" />
             <img
               className="w-12 h-12 rounded-full"
-              src="../src/assets/dp.svg"
+              src="/dp.svg"
               alt=""
             />
             <div className="min-w-[130px]">Danielle Campbell</div>
