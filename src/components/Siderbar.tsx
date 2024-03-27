@@ -41,7 +41,7 @@ const Siderbar = () => {
           </div>
         </div>
         <div className="rounded-2xl bg-[#ffffff] mx-6 mr-16 flex flex-col items-center">
-          <img className="w-36 h-28 m-2" src="../src/assets/icon.png" alt="" />
+          <img className="w-36 h-28 m-2" src="/src/assets/icon.png" alt="" />
           <div className="font-semibold text-[14px]">Want to upgrade</div>
           <div className="rounded-full bg-[#FF8057] font-semibold text-[#ffffff] m-2 text-[14px] px-4 text-center">Upgrade now</div>
         </div>
