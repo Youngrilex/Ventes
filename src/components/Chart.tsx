@@ -14,11 +14,11 @@ class ApexChart extends React.Component<{}, State> {
     this.state = {
       series: [{
         name: "Approved",
-        data: [10, 31, 21, 49, 11, 50]
+        data: [30, 15, 25, 30, 8, 45]
       },
       {
         name: "Submitted",
-        data: [5, 11, 35, 29, 31, 48]
+        data: [23, 15, 28, 27, 11, 30]
       }],
       options: {
         chart: {
@@ -33,7 +33,7 @@ class ApexChart extends React.Component<{}, State> {
         },
         stroke: {
           curve: 'smooth',
-          colors: ['#008FFB', '#00E396']
+          colors: ['#E26169', '#5041BC']
         },
         title: {
           text: 'Claims Over the Years',
@@ -49,7 +49,7 @@ class ApexChart extends React.Component<{}, State> {
           categories: ['2015', '2016', '2017', '2018', '2019', '2020'],
         },
         markers: {
-          colors: ['#008FFB', '#00E396']
+          colors: ['#E26169', '#5041BC']
         }
       },
     };
@@ -58,8 +58,7 @@ class ApexChart extends React.Component<{}, State> {
   render() {
     return (
       <div className="container mx-auto px-4">
-        <div className="bg-white rounded-lg shadow-lg p-6 mb-4">
-          <h2 className="text-xl font-semibold mb-4">Line Chart</h2>
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-4 max-h-[350px]">
           <div id="chart">
             <ReactApexChart options={this.state.options} series={this.state.series} type="line" height={350} />
           </div>

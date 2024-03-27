@@ -12,7 +12,7 @@ const Reports = () => {
         <h1 className="text-[32px] font-bold">25.1k</h1>
         <h1 className="text-[#6AD2A0] flex items-center"><BsArrowUpRightCircleFill /> +15%</h1>
       </div>
-      <div className="w-1/2 items-center">
+      <div className="w-1/2 flex flex-col items-center">
         <h1><IoCartOutline /></h1>
         <h1 className="text-[#5041BC] mt-4">View Report</h1>
       </div>
@@ -23,7 +23,7 @@ const Reports = () => {
         <h1 className="text-[32px] font-bold">25.1k</h1>
         <h1 className="text-[#EA8F95] flex items-center"><BsFillArrowDownLeftCircleFill /> +15% </h1>
       </div>
-      <div className="w-1/2 items-center">
+      <div className="w-1/2 flex flex-col items-center">
         <h1><PiChartLineUpBold /></h1>
         <h1 className="text-[#5041BC] mt-4">View Report</h1>
       </div>
@@ -34,7 +34,7 @@ const Reports = () => {
         <h1 className="text-[32px] font-bold">25.1k</h1>
         <h1 className="text-[#6AD2A0] flex items-center"><BsArrowUpRightCircleFill /> +15% </h1>
       </div>
-      <div className="w-1/2 items-center ">
+      <div className="w-1/2 flex flex-col items-center ">
         <h1><BsBookmarkDashFill /></h1>
         <h1 className="text-[#5041BC] mt-4">View More</h1>
       </div>
@@ -45,7 +45,7 @@ const Reports = () => {
         <h1 className="text-[32px] font-bold">25.1k</h1>
         <h1 className="text-[#6AD2A0] flex items-center"><BsArrowUpRightCircleFill /> +15%</h1>
       </div>
-      <div className="w-1/2 items-center">
+      <div className="w-1/2 flex flex-col items-center">
         <h1><HiOutlineUsers /></h1>
         <h1 className="text-[#5041BC] mt-4">View More</h1>
       </div>

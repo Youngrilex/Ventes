@@ -13,7 +13,7 @@ const Header: React.FC = () => {
             <div className="container mx-auto p-4">
               <Search onSearch={handleSearch} />
             </div>
-            <BsBellFill className="w-[20px] h-[16px] text-[#5041BC]" />
+            <BsBellFill className="w-[32px] h-[28px] text-[#5041BC]" />
             <img
               className="w-12 h-12 rounded-full"
               src="../src/assets/dp.svg"
