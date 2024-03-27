@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Siderbar />
-      <div className="bg-[#FFFFFF] rounded-3xl h-[170vh] absolute top-0 left-52">
+      <div className="bg-[#FFFFFF] rounded-3xl h-[200vh] sm:h-[170vh] md:h-[170vh] absolute top-0 left-52">
         <Header />
         <div className="w-full mx-auto p-4">
           <h1 className="text-2xl font-bold mb-4">Top sales Representatives</h1>
